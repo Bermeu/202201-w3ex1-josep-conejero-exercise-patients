@@ -1,13 +1,16 @@
+export function devolverDatos(pacientes) {
+  const datos = {};
+  datos.nPatients = pacientes.lenght;
+  datos.nAdults = pacientes.filter(
+    (paciente) => paciente[patience.age >= 18]
+  ).lenght;
+  datos.nDiabeticMen = pacientes.filter(
+    (paciente) => paciente[patience.age >= 18]
+  ).lenght;
+  /* datos.totalDaysInHospital =;
+datos.averageAgeWomen =; */
 
-function devolverDatos(pacientes){
-const datos = {};
-datos.nPatients =;
-datos.nAdults =;
-datos.nDiabeticMen =;
-datos.totalDaysInHospital =;
-datos.averageAgeWomen =;
-
-return datos;
+  return datos;
 }
 
 /* {

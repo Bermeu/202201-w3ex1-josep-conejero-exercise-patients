@@ -1,3 +1,5 @@
+import { devolverDatos } from "./module.js";
+
 const patients = [
   {
     patient: {
