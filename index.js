@@ -56,3 +56,5 @@ const patients = [
     diet: "Salt free",
   },
 ];
+
+console.log(devolverDatos(patients));
